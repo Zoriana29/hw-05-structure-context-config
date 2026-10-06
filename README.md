@@ -1,25 +1,32 @@
-# ДЗ 5 — Playwright: structure, browser, context, page, reporting, config
+# Homework 5 — Playwright: Structure, Browser, Context, Page, Reporting, Config
 
-Тести реєстрації та входу для навчального застосунку QA Dojo (Conduit).
+Registration and login tests for the QA Dojo training application (Conduit).
 
-Застосунок: http://104.168.59.50
+Application: http://104.168.59.50
 
-## Тема розділу
-Архітектура Playwright (Browser, BrowserContext, Page), fixtures,
-ізоляція тестів, web-first assertions, конфігурація, звіти, Trace Viewer.
+## Section Topic
 
-## Стек
+Playwright architecture (Browser, BrowserContext, Page), fixtures,
+test isolation, web-first assertions, configuration, reports, and Trace Viewer.
+
+## Tech Stack
+
 Playwright Test + TypeScript
 
-## Запуск
+## How to Run
+
     npm ci
     npx playwright install
     cp .env.example .env
     npx playwright test
     npx playwright show-report
 
-## Змінні середовища
-BASE_URL — адреса застосунку. Для цього завдання: http://104.168.59.50
+## Environment Variables
 
-## Структура
-tests/auth.spec.ts — три тести реєстрації і три тести входу.
+`BASE_URL` — the application URL. For this assignment:
+
+    http://104.168.59.50
+
+## Project Structure
+
+`tests/auth.spec.ts` — three registration tests and three login tests.
