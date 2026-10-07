@@ -1,5 +1,7 @@
 # Playwright Authentication Tests
 
+![Playwright Tests](https://github.com/Zoriana29/hw-05-structure-context-config/actions/workflows/playwright.yml/badge.svg)
+
 End-to-end tests for registration and login flows in the QA Dojo training application.
 
 Application under test: http://104.168.59.50/articles
