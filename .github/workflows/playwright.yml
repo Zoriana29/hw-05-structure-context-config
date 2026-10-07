@@ -20,7 +20,7 @@ jobs:
     - name: Run Playwright tests
       run: npx playwright test
       env:
-        BASE_URL: https://104.168.59.50
+        BASE_URL: http://104.168.59.50
     - uses: actions/upload-artifact@v4
       if: ${{ !cancelled() }}
       with:
